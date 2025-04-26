@@ -1,0 +1,95 @@
+:root {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #1f2937; /* text-gray-800 */
+  background-color: #f9fafb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 链接样式 */
+a {
+  font-weight: 500;
+  color: #3b82f6; /* blue-500 */
+  text-decoration: none;
+}
+a:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+/* 页面布局 */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: #f3f4f6; /* gray-100 */
+}
+
+/* 标题 */
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #111827; /* gray-900 */
+}
+
+/* 通用按钮样式 */
+button {
+  border-radius: 0.75rem;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid #60a5fa; /* focus ring */
+  outline-offset: 2px;
+}
+
+/* 表单输入框 */
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  background-color: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* 响应式适配 */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
