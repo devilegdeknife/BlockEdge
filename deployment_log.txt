@@ -1,0 +1,1261 @@
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:01:57 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:01:57 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+🚀 开始部署 ResourceAllocation 合约到 localhost 网络...
+📦 正在等待部署交易被确认...
+✅ 合约部署成功: 0x7a2088a1bFc9d81c55368AE168C2C02570cB814F
+⛽ Gas 用量: 1956722
+❌ 部署失败: ReferenceError: resourceAllocation is not defined
+    at main (/home/eva/BlockEdge/scripts/deploy.js:29:14)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-21 14:01:58 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:02:11 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:02:11 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:04:00 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:04:00 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+🚀 开始部署 ResourceAllocation 合约到 localhost 网络...
+📦 正在等待部署交易被确认...
+❌ 部署失败: TypeError: Cannot read properties of undefined (reading 'wait')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:16:52)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-21 14:04:01 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:04:14 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:04:15 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:06:00 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:06:00 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+🚀 开始部署 ResourceAllocation 合约到 localhost 网络...
+📦 正在等待部署交易被确认...
+❌ 部署失败: TypeError: Cannot read properties of undefined (reading 'wait')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:17:52)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-21 14:06:01 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:06:14 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:06:14 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:08:35 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:08:35 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+🚀 开始部署 ResourceAllocation 合约到 localhost 网络...
+📦 正在等待部署交易被确认...
+❌ 部署失败: TypeError: Cannot read properties of undefined (reading 'wait')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:17:52)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-21 14:08:36 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:08:49 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:08:49 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:13:13 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:13:13 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+🚀 开始部署 ResourceAllocation 合约到 localhost 网络...
+📦 正在等待部署交易被确认...
+❌ 部署失败: TypeError: contract.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:14:18)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-21 14:13:14 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (13s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:13:27 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:13:27 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Compiled 1 Solidity file successfully (evm target: paris).
+2025-04-21 14:21:50 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:21:50 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+Nothing to compile
+2025-04-21 14:21:52 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:22:05 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:22:05 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:23:34 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:23:34 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+Nothing to compile
+2025-04-21 14:23:36 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:23:49 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:23:49 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-21 14:24:04 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-21 14:24:04 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+Nothing to compile
+2025-04-21 14:24:05 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-21 14:24:18 - 测试完成
+✅ 所有流程已完成
+2025-04-21 14:24:18 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Compiled 1 Solidity file successfully (evm target: paris).
+2025-04-22 09:43:24 - 合约编译完成
+🟢 启动本地 Hardhat 节点...
+🧠 等待节点启动...
+2025-04-22 09:43:27 - 本地 Hardhat 节点已启动
+🚀 正在部署合约...
+Nothing to compile
+2025-04-22 09:43:28 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (13s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-22 09:43:42 - 测试完成
+🧼 关闭本地节点...
+2025-04-22 09:43:42 - 本地节点已关闭
+✅ 所有流程已完成
+2025-04-22 09:43:42 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:03:30 - 合约编译完成
+🟢 启动本地 Hardhat 节点...
+🧠 等待节点启动...
+2025-04-26 21:03:34 - 本地 Hardhat 节点已启动
+🚀 正在部署合约...
+Nothing to compile
+2025-04-26 21:03:35 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (13s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:03:48 - 测试完成
+🧼 关闭本地节点...
+2025-04-26 21:03:48 - 本地节点已关闭
+✅ 所有流程已完成
+2025-04-26 21:03:48 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:07:12 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:07:12 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+Nothing to compile
+2025-04-26 21:07:13 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:07:26 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:07:26 - 所有流程已完成
+🚀 一键编译、部署和测试 ResourceAllocation 合约...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:14:54 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:14:54 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约...
+Nothing to compile
+2025-04-26 21:14:55 - 合约部署完成
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:15:09 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:15:09 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:21:43 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:21:44 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:21:45 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:21:59 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:21:59 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:23:11 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:23:11 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:23:13 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (10s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:23:24 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:23:24 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:24:31 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:24:31 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:24:33 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (10s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:24:43 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:24:43 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:25:40 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:25:40 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+ResourceAllocation deployed to: undefined
+ABI 和合约地址已写入到 /home/eva/BlockEdge/frontend/src/contracts.js
+2025-04-26 21:25:42 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:25:56 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:25:56 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Compiled 1 Solidity file successfully (evm target: paris).
+2025-04-26 21:26:51 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:26:51 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+ResourceAllocation deployed to: undefined
+ABI 和合约地址已写入到 /home/eva/BlockEdge/frontend/src/contracts.js
+2025-04-26 21:26:53 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:27:07 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:27:07 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:29:10 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:29:10 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:84)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:29:12 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:29:25 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:29:25 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Compiled 1 Solidity file successfully (evm target: paris).
+2025-04-26 21:29:33 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:29:33 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:84)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:29:35 - 合约部署完成，前端配置已更新
+🧪 正在运行测试...
+
+
+  ResourceAllocation Contract
+    资源发布
+      1) ✅ 应允许发布资源
+      ✔ ❌ 资源数量为0应失败
+      ✔ ❌ 时长为0应失败
+      ✔ ❌ 名称为空应失败
+    资源请求
+      2) "before each" hook for "✅ 应允许创建请求"
+    请求 Fulfill
+      3) "before each" hook for "✅ 请求者应能 fulfill 自己的请求"
+
+
+  3 passing (12s)
+  3 failing
+
+  1) ResourceAllocation Contract
+       资源发布
+         ✅ 应允许发布资源:
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:21:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  2) ResourceAllocation Contract
+       资源请求
+         "before each" hook for "✅ 应允许创建请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:54:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+  3) ResourceAllocation Contract
+       请求 Fulfill
+         "before each" hook for "✅ 请求者应能 fulfill 自己的请求":
+     AssertionError: ResourceAnnounced event should be emitted: expected undefined not to be undefined
+      at Context.<anonymous> (test/ResourceAllocation.js:103:75)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+
+
+2025-04-26 21:29:48 - 测试完成
+✅ 所有流程已完成
+2025-04-26 21:29:48 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:30:09 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:30:09 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:84)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:30:11 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:30:11 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:31:38 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:31:38 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Deployment error: HardhatError: HH108: Cannot connect to the network localhost.
+Please make sure your node is running, and check your internet connection and networks config
+    at HttpProvider._fetchJsonRpcResponse (/home/eva/BlockEdge/node_modules/hardhat/src/internal/core/providers/http.ts:240:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at HttpProvider.request (/home/eva/BlockEdge/node_modules/hardhat/src/internal/core/providers/http.ts:104:29)
+    at getSigners (/home/eva/BlockEdge/node_modules/@nomicfoundation/hardhat-ethers/src/internal/helpers.ts:46:16)
+    at getContractFactoryByAbiAndBytecode (/home/eva/BlockEdge/node_modules/@nomicfoundation/hardhat-ethers/src/internal/helpers.ts:318:21)
+    at main (/home/eva/BlockEdge/scripts/deploy.js:9:30)
+
+    Caused by: Error: connect ECONNREFUSED 127.0.0.1:8545
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+2025-04-26 21:31:40 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:31:40 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:32:40 - 合约编译完成
+🟢 启动本地 Hardhat 节点...
+🧠 等待节点启动...
+2025-04-26 21:32:43 - 本地 Hardhat 节点已启动
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:12:84)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:32:42 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:32:42 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:37:15 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:37:15 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+ResourceAllocation deployed to: undefined
+ABI retrieved
+Writing to: /home/eva/BlockEdge/frontend/src/contracts.js
+ABI 和合约地址已写入到 /home/eva/BlockEdge/frontend/src/contracts.js
+2025-04-26 21:37:17 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:37:17 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:38:17 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:38:17 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:16:65)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:38:19 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:38:19 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:38:53 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:38:53 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment error: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:14:86)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:38:54 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:38:54 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:40:49 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:40:49 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+ResourceAllocation deployed to: undefined
+ABI retrieved
+Writing to: /home/eva/BlockEdge/frontend/src/contracts.js
+ABI 和合约地址已写入到 /home/eva/BlockEdge/frontend/src/contracts.js
+2025-04-26 21:40:51 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:40:51 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:43:32 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:43:32 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+正在使用账户部署合约: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+合约工厂已创建
+部署过程中发生错误: TypeError: Cannot read properties of undefined (reading 'hash')
+    at main (/home/eva/BlockEdge/scripts/deploy.js:20:71)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:43:34 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:43:34 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:51:38 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:51:39 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+正在使用账户部署合约: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+合约工厂已创建
+部署交易已发送
+部署过程中发生错误: TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:23:30)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:51:40 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:51:40 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:52:49 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:52:49 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contract with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment transaction sent
+Contract deployment confirmed on-chain
+Warning: Deployment transaction undefined, check network or config
+ResourceAllocation deployed to: undefined
+Reading contract ABI...
+ABI retrieved
+Writing config to: /home/eva/BlockEdge/frontend/src/contracts.js
+ABI and contract address written to /home/eva/BlockEdge/frontend/src/contracts.js
+✅ Deployment script completed successfully
+2025-04-26 21:52:51 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:52:51 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:54:45 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:54:45 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying contract with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment transaction sent
+Contract deployment confirmed on-chain
+Warning: Deployment transaction undefined, check network or config
+ResourceAllocation deployed to: undefined
+Reading contract ABI...
+ABI retrieved
+Writing config to: /home/eva/BlockEdge/frontend/src/contracts.js
+ABI and contract address written to /home/eva/BlockEdge/frontend/src/contracts.js
+✅ Deployment script completed successfully
+2025-04-26 21:54:47 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:54:47 - 所有流程已完成
+🚀 一键编译、部署和更新前端合约配置...
+🔧 正在编译合约...
+Nothing to compile
+2025-04-26 21:59:30 - 合约编译完成
+🔌 本地 Hardhat 节点已运行
+2025-04-26 21:59:31 - 本地 Hardhat 节点已经运行
+🚀 正在部署合约并更新前端配置...
+Deploying to network: localhost
+Deploying contract with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Contract factory created
+Deployment transaction sent
+Error during deployment: TypeError: resourceAllocation.deployed is not a function
+    at main (/home/eva/BlockEdge/scripts/deploy.js:24:38)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-26 21:59:32 - 合约部署完成，前端配置已更新
+✅ 所有流程已完成
+2025-04-26 21:59:32 - 所有流程已完成
